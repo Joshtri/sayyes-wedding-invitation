@@ -1,0 +1,47 @@
+{
+  "paket": [
+    {
+      "namapaket": "Tema 1",
+      "kategori_paket": "Diamond",
+      "price": "Rp 5.000.000",
+      "description": "Paket Diamond A dengan desain undangan eksklusif.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/bukutamuproject.appspot.com/o/projects%2Fweb-profil-oetete.PNG?alt=media&token=705519bc-4c2d-4b71-82a1-d3d10b8db5cd",
+      "link" : "/tema-1-diamond"
+    },
+    {
+      "namapaket": "Tema 2",
+      "kategori_paket": "Diamond",
+      "price": "Rp 5.500.000",
+      "description": "Paket Diamond B dengan fitur lengkap RSVP dan Countdown Timer.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/bukutamuproject.appspot.com/o/projects%2Fweb-profil-oetete.PNG?alt=media&token=705519bc-4c2d-4b71-82a1-d3d10b8db5cd"
+    },
+    {
+      "namapaket": "Tema 3",
+      "kategori_paket": "Diamond",
+      "price": "Rp 5.500.000",
+      "description": "Paket Diamond B dengan fitur lengkap RSVP dan Countdown Timer.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/bukutamuproject.appspot.com/o/projects%2Fweb-profil-oetete.PNG?alt=media&token=705519bc-4c2d-4b71-82a1-d3d10b8db5cd"
+    },
+    {
+      "namapaket": "Gold A",
+      "kategori_paket": "Gold",
+      "price": "Rp 3.500.000",
+      "description": "Paket Gold A dengan desain elegan.",
+      "image": "./HomeImage/imageBackground.jpg"
+    },
+    {
+      "namapaket": "Syar'i A",
+      "kategori_paket": "Syar'i",
+      "price": "Rp 3.000.000",
+      "description": "Paket Syar'i A dengan tema Islami.",
+      "image": "./HomeImage/imageBackground.jpg"
+    },
+    {
+      "namapaket": "Silver A",
+      "kategori_paket": "Silver",
+      "price": "Rp 2.500.000",
+      "description": "Paket Silver A dengan desain sederhana.",
+      "image": "./HomeImage/imageBackground.jpg"
+    }
+  ]
+}
