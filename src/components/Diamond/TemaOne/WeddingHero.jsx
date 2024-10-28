@@ -1,13 +1,15 @@
-// import React from 'react';
 import { FaPlay, FaHome } from 'react-icons/fa'; // Import React Icons
-import imgBackgroundHero from '../TemaOne/wedding-img-diamond1.webp'
+import imgBackgroundHero from '../TemaOne/wedding-img-diamond1.webp';
 
 const WeddingHero = () => {
   return (
     <div className="container mx-auto p-8">
-      <div className="relative bg-gradient-to-r from-green-900 to-green-700 text-white rounded-lg shadow-lg overflow-hidden">
+      <div className="relative bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white rounded-lg shadow-lg overflow-hidden">
         {/* Background Image */}
-        <div className="absolute inset-0 bg-cover bg-center opacity-60" style={{ backgroundImage: `url('${imgBackgroundHero}`}}></div>
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-60"
+          style={{ backgroundImage: `url('${imgBackgroundHero}` }}
+        ></div>
         {/* Content */}
         <div className="relative z-10 p-8">
           <h1 className="text-3xl font-bold text-white">THE WEDDING OF</h1>
@@ -24,7 +26,7 @@ const WeddingHero = () => {
         </div>
 
         {/* Footer */}
-        <div className="relative z-10 bg-green-800 text-white flex justify-between p-4 border-t border-gray-700">
+        <div className="relative z-10 bg-gray-800 text-white flex justify-between p-4 border-t border-gray-700">
           <button className="text-2xl flex items-center gap-2 hover:text-yellow-300 transition duration-300">
             <FaPlay />
             <span>Play</span>
