@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import HomePage from './pages/HomePage';
 import TemaOnePage from './pages/Diamond/TemaOnePage';
+import TemaTwoPage from './pages/Diamond/TemaTwoPage';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
           {/* <Route path="/features" element={<Features />} /> */}
 
           <Route path="/tema-1-diamond" element={<TemaOnePage/>}/>
+          <Route path='/tema-2-diamond' element={<TemaTwoPage/>}/>        
         </Routes>
       </BrowserRouter>
     </>

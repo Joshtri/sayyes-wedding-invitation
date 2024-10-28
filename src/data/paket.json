@@ -13,7 +13,8 @@
       "kategori_paket": "Diamond",
       "price": "Rp 5.500.000",
       "description": "Paket Diamond B dengan fitur lengkap RSVP dan Countdown Timer.",
-      "image": "https://firebasestorage.googleapis.com/v0/b/bukutamuproject.appspot.com/o/projects%2Fweb-profil-oetete.PNG?alt=media&token=705519bc-4c2d-4b71-82a1-d3d10b8db5cd"
+      "image": "https://firebasestorage.googleapis.com/v0/b/bukutamuproject.appspot.com/o/projects%2Fweb-profil-oetete.PNG?alt=media&token=705519bc-4c2d-4b71-82a1-d3d10b8db5cd",
+      "link" : "/tema-2-diamond"
     },
     {
       "namapaket": "Tema 3",

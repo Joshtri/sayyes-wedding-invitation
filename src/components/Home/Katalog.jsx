@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { FaCrown, FaGem, FaStar, FaMedal, FaEye } from 'react-icons/fa'; // Tambahkan FaEye untuk Preview icon
-import data from '../data/paket.json'; // Assuming JSON is stored in a file called data.json
+import data from '../../data/paket.json'; // Assuming JSON is stored in a file called data.json
 import './floating.css';
 
 function Katalog() {
@@ -22,7 +22,7 @@ function Katalog() {
       </div>
 
       {/* Category Options */}
-      <div className="flex space-x-6 border-b border-gray-300 pb-2">
+      <div className="flex space-x-6   border-b border-gray-300 pb-2">
   {['Diamond', 'Gold', "Syar'i", 'Silver'].map((category, index) => (
     <div
       key={index}
